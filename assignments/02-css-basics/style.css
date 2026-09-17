@@ -1,0 +1,74 @@
+body{
+    background-color: #505050;
+}
+
+
+#title{
+    color: #994444;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+#OverallDiv1{
+    display: flex;
+    gap: 10px;
+}
+
+
+.box{
+    background-color: #994444;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    padding: 20px;
+    align-items: center; 
+    justify-content: center;
+    border: 20px solid #000000;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+
+
+.Lebron{
+    width:50%;
+    height:70px;
+}
+
+.Lebron:hover{
+    transform: scale(1.1);  
+}
+ul{
+    list-style-type: disc;
+    color:#FFFFFF;
+    
+}
+
+
+p{
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+
+#OverallDiv2{
+    display: flex;
+}
+
+#box2{
+    background-color: #994444;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    border: 20px solid #000000;
+    margin-bottom: 10px;
+}
+
+.cap{
+    font-weight: bold;
+
+}
