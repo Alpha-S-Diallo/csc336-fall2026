@@ -1,0 +1,67 @@
+body {
+    background-color: #e3ebe1;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+
+#Store{
+    background-color: #1f2a44;
+    color: white;
+    padding: 24px;
+}
+#filterDiv {
+    margin-bottom: 20px;
+}
+
+
+#mainDiv {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    gap: 30px;
+    align-items: start;
+}
+
+
+#productDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+#cartDiv {
+    background-color: lightgray;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.cardDiv {
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+
+.cardDiv.highlight {
+    border-color: royalblue;
+    
+}
+
+img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+}
+
+.cardDiv button {
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.cardDiv button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
